@@ -20,4 +20,3 @@ class Teste2
         echo 'Echo da Classe Teste2' . PHP_EOL;
     }
 }
-
