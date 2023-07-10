@@ -12,4 +12,3 @@ $cursos = $buscador->buscarCursos('/cursos-online-programacao/php');
 foreach ($cursos as $curso) {
     echo $curso . PHP_EOL;
 }
-

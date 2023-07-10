@@ -37,7 +37,7 @@
       "@phan",
       "@cs"
     ],
-    "exibe-cursos": "php buscar-cursos.php",
+    "exibe-cursos": "php ./buscar-cursos",
     "echo-teste1": "\\Teste1::echo",
     "post-update-cmd": [
       "@check"
@@ -47,10 +47,10 @@
     "phan": "Executa verifição de código via Phan no arquivo Buscador.php",
     "cs": "Executa verificação de código via CodeSniffer em todos os arquivos do diretório \"src/\"",
     "check": "Executa verificação de código definido nos scripts \"phan\" e \"cs\"",
-    "exibe-cursos": "Executa o arquivo buscar-cursos.php",
+    "exibe-cursos": "Executa o arquivo buscar-cursos",
     "echo-teste1": "Chama a função \"echo\" da classe Teste1"
   },
   "bin": [
-    "buscar-cursos.php"
+    "./buscar-cursos"
   ]
 }
