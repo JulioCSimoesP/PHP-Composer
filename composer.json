@@ -49,5 +49,8 @@
     "check": "Executa verificação de código definido nos scripts \"phan\" e \"cs\"",
     "exibe-cursos": "Executa o arquivo buscar-cursos.php",
     "echo-teste1": "Chama a função \"echo\" da classe Teste1"
-  }
+  },
+  "bin": [
+    "buscar-cursos.php"
+  ]
 }
